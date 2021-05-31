@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #BEBEB0;
+}
+.card{
+    margin-left: 10px;
+    font-family: kelly slab,cursive;
+    margin-top: 10px;
+    height: 240px;
+    width: 400px;
+    background: url('./background.png');
+    border: 1px solid black;
+    position: relative;
+    border-radius: 8px;
+}
+
+.visaa{
+    background-image: url('./visa.png');
+    height: 40px;
+    width: 90px;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 2%;
+    right: 2%;
+}
+.master{
+    background-image: url('./master&visa-01.png');
+    position: absolute;
+    height: 50px;
+    width: 85px;
+    bottom: 3%;
+    right: 2%;
+}
+.flex{
+    display: flex;
+    text-align: center;
+    /* justify-content: center; */
+    align-items: center;
+}
+.chip{
+    margin-top: 10px;
+}
+h1{
+    margin-left: 10px;
+}
+h2{
+    
+    margin-left: 10px;
+}
+h5{
+    margin-left: 50%;
+    margin-top: 1px;
+}
+.back{
+    background-image: url('./card back.png');
+    height: 240px;
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 8px;
+    position: relative;
+}
+.cvc{
+    margin-top: 70px;
+    position: absolute;
+    margin-left: 260px;
+    color: black;
+}
